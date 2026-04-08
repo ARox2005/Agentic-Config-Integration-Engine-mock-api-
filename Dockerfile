@@ -2,11 +2,11 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
-COPY mock-apis/requirements.txt .
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install --no-cache-dir uvicorn python-dotenv
 
-COPY mock-apis/ /app/
+COPY . /app/
 
 EXPOSE 7860
 
