@@ -1,4 +1,12 @@
-# FinSpark Mock APIs
+---
+title: Agentic Config Integration Engine Mock APIs
+emoji: 🤖
+colorFrom: indigo
+colorTo: indigo
+sdk: docker
+pinned: false
+---
+# Agentic Config Integration Engine Mock APIs
 
 A suite of stateless mock external services (e.g. KYC Provider, GST Validator) used to safely simulate FinSpark API gateway payloads.
 
@@ -144,6 +152,3 @@ Source Data Mapping:
 
 ## Deployment
 This is a stateless FastAPI service. It can be deployed via Docker to anywhere that supports Python APIs.
-
-## License
-Built for the FinSpark Hackathon.
